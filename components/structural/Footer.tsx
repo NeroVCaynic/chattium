@@ -5,7 +5,9 @@ function Footer() {
         <footer
         id='footer'
         className=''
-        ></footer>
+        >
+            footer
+        </footer>
     );
 };
 

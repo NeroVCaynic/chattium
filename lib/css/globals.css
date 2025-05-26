@@ -9,8 +9,23 @@
         @apply
         p-0
         m-0
-        w-full
-        h-full
+        w-full h-full
+        flex flex-col
+        ;
+    }
+
+    header, main, footer {
+        @apply
+        p-4
+        mx-auto
+        container
+        border
+        ;
+    }
+
+    main {
+        @apply 
+        flex-1
         ;
     }
 }

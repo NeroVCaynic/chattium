@@ -4,13 +4,23 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div>Navbar</div>
+        <header
+        id='navbar-header'
+        className=''
+        >
+            Navbar
+        </header>
     );
 };
 
 function Sidebar() {
     return (
-        <div>Navbar</div>
+        <header
+        id='sidebar-header'
+        className=''
+        >
+            Navbar
+        </header>
     );
 };
 
