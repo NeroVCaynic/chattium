@@ -23,6 +23,7 @@
       "@/*": ["./*"],
       "@/components/*": ["components/*"],
       "@/lib/*": ["lib/*"],
+      "@/utils/*": ["lib/utils/*"],
       "@/css/*": ["lib/css/*"],
       "@/hooks/*": ["lib/hooks/*"],
       "@/types/*": ["lib/types/*"],
