@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin "daisyui";
+
+
+@layer base {
+    html, body {
+        @apply
+        p-0
+        m-0
+        w-full
+        h-full
+        ;
+    }
+}
