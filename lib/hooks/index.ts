@@ -1,7 +1,8 @@
 import ThemeContext from "./ThemeContext";
-import UserContext from "./UserContext";
+import UserContextProvider, { useUserContext } from "./UserContext";
 
 export {
     ThemeContext,
-    UserContext,
+    UserContextProvider,
+    useUserContext,
 };
