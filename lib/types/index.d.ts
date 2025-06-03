@@ -1,7 +1,11 @@
-interface user {
-    username: string,
-    userImg: string,
-};
+import { Session } from "@supabase/supabase-js";
+
+// interface user {
+//     username: string,
+//     userImg: string,
+// };
+
+type user = Session | null;
 
 interface userContact {
     userContactName: string,

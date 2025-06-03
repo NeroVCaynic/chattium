@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { signup as sign } from '@/utils/auth';
+import { signup as sign } from '@/lib/utils/serverActions';
 
 export default function signup() {
     return (
